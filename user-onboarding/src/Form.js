@@ -36,7 +36,7 @@ const Form = (props) =>{
                         Do you agree to Terms of Service?
                         <input name="terms" type="checkbox" checked={values.terms} onChange={onChange} />
                     </label>
-                    <button disabled={disabled}> Submit </button>
+                    <button id="submitBtn" disabled={disabled}> Submit </button>
                 </form>
             </label>
         </div>
